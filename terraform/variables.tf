@@ -1,5 +1,5 @@
 variable "project_id" {
-  default = "project-id"
+  default = "koverholt-dev"
   type    = string
 }
 
