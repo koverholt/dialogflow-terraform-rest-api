@@ -1,8 +1,13 @@
-# Using Terraform to Templatize REST API calls to Dialogflow
+# Using Terraform with REST API calls to Dialogflow
 
 [![terraform-lint](https://github.com/koverholt/dialogflow-terraform-rest-api/actions/workflows/main.yml/badge.svg)](https://github.com/koverholt/dialogflow-terraform-rest-api/actions/workflows/main.yml)
 
-Use Terraform to templatize REST API calls to Dialogflow in Google Cloud.
+![Dialogflow CX Default Welcome Intent](images/templatizing-default-welcome-intent.png)
+
+Use Terraform to templatize REST API calls to Dialogflow in Google Cloud. Uses a
+REST API call to modify the training phrases in the default welcome intent.
+
+![Dialogflow CX Intent Training Phrases](images/templatizing-new-training-phrases.png)
 
 # Prerequisites
 
