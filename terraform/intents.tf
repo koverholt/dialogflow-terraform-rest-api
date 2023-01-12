@@ -30,7 +30,6 @@ resource "null_resource" "default_welcome_intent" {
     }
   }
 
-
   depends_on = [
     google_dialogflow_cx_agent.agent
   ]
