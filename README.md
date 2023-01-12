@@ -6,8 +6,8 @@ Use Terraform to templatize REST API calls to Dialogflow in Google Cloud.
 
 ![Dialogflow CX Default Welcome Intent](images/templatizing-default-welcome-intent.png)
 
-Uses a REST API call to modify the training phrases in the default welcome
-intent.
+Uses a REST API call invoked from Terraform to modify the training phrases in
+the default welcome intent.
 
 ![Dialogflow CX Intent Training Phrases](images/templatizing-new-training-phrases.png)
 
