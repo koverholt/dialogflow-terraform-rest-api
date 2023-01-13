@@ -1,4 +1,7 @@
 resource "null_resource" "default_welcome_intent" {
+  # Use a REST API call (instead of Terraform) to modify training phrases in the
+  # default welcome intent and since Dialogflow creates this default welcome
+  # intent automatically
   provisioner "local-exec" {
     command = <<-EOT
     curl --location --request PATCH "https://$LOCATION-dialogflow.googleapis.com/v3/projects/$PROJECT/locations/$LOCATION/agents/$AGENT/intents/$DEFAULT_WELCOME_INTENT?updateMask=trainingPhrases" \
